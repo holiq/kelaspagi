@@ -1,4 +1,7 @@
 {
   "name": "kelaspagi",
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.0.2",
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  }
 }
