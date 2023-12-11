@@ -27,6 +27,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["autoprefixer", "virtual:ce886758e5cb1657bf8acb2a28cc2ea7b814f866588894e0917b7e69a575ab99e66901085d33838e94315701f64ea0455b26b10fcc2b54adb113d99ee9eb9151#npm:10.4.16"],\
+          ["flowbite", "npm:2.2.0"],\
           ["postcss", "npm:8.4.32"],\
           ["tailwindcss", "npm:3.3.6"],\
           ["vite", "virtual:ce886758e5cb1657bf8acb2a28cc2ea7b814f866588894e0917b7e69a575ab99e66901085d33838e94315701f64ea0455b26b10fcc2b54adb113d99ee9eb9151#npm:5.0.7"]\
@@ -375,6 +376,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../.yarn/berry/cache/@pkgjs-parseargs-npm-0.11.0-cd2a3fe948-10c0.zip/node_modules/@pkgjs/parseargs/",\
         "packageDependencies": [\
           ["@pkgjs/parseargs", "npm:0.11.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@popperjs/core", [\
+      ["npm:2.11.8", {\
+        "packageLocation": "../.yarn/berry/cache/@popperjs-core-npm-2.11.8-f1692e11a0-10c0.zip/node_modules/@popperjs/core/",\
+        "packageDependencies": [\
+          ["@popperjs/core", "npm:2.11.8"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -994,6 +1004,17 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["flowbite", [\
+      ["npm:2.2.0", {\
+        "packageLocation": "../.yarn/berry/cache/flowbite-npm-2.2.0-cee8ed82f3-10c0.zip/node_modules/flowbite/",\
+        "packageDependencies": [\
+          ["flowbite", "npm:2.2.0"],\
+          ["@popperjs/core", "npm:2.11.8"],\
+          ["mini-svg-data-uri", "npm:1.4.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["foreground-child", [\
       ["npm:3.1.1", {\
         "packageLocation": "../.yarn/berry/cache/foreground-child-npm-3.1.1-77e78ed774-10c0.zip/node_modules/foreground-child/",\
@@ -1320,6 +1341,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["kelaspagi", "workspace:."],\
           ["autoprefixer", "virtual:ce886758e5cb1657bf8acb2a28cc2ea7b814f866588894e0917b7e69a575ab99e66901085d33838e94315701f64ea0455b26b10fcc2b54adb113d99ee9eb9151#npm:10.4.16"],\
+          ["flowbite", "npm:2.2.0"],\
           ["postcss", "npm:8.4.32"],\
           ["tailwindcss", "npm:3.3.6"],\
           ["vite", "virtual:ce886758e5cb1657bf8acb2a28cc2ea7b814f866588894e0917b7e69a575ab99e66901085d33838e94315701f64ea0455b26b10fcc2b54adb113d99ee9eb9151#npm:5.0.7"]\
@@ -1405,6 +1427,15 @@ const RAW_RUNTIME_STATE =
           ["micromatch", "npm:4.0.5"],\
           ["braces", "npm:3.0.2"],\
           ["picomatch", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mini-svg-data-uri", [\
+      ["npm:1.4.4", {\
+        "packageLocation": "../.yarn/berry/cache/mini-svg-data-uri-npm-1.4.4-929f6f1119-10c0.zip/node_modules/mini-svg-data-uri/",\
+        "packageDependencies": [\
+          ["mini-svg-data-uri", "npm:1.4.4"]\
         ],\
         "linkType": "HARD"\
       }]\
