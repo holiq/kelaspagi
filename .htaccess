@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} !^/subdomain
+RewriteRule ^$ /dist/index.html [L]
+
+RewriteRule ^assets/(.*)\.(css|js)$ /dist/assets/$1.$2 [L]
